@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: user
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: CONFIG
+      profile: dev
+  redis:
+    host: 192.168.100.101
+    port: 6380
+server:
+  port: 8082
